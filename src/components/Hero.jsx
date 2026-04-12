@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="hero-image-container reveal" style={{ transitionDelay: '0.5s' }}>
         <div className="hero-image-placeholder">
           {/* USER INSTRUCTION: Replace changing the src below to your personal image URL or path (e.g. import myImage from '../assets/my-image.jpg' and set src={myImage}) */}
-          <img src="https://github.com/Blvck4K/Jss-png/blob/main/WhatsApp%20Image%202026-04-12%20at%204.14.28%20PM.jpeg" alt="Isaac Akpasu" />
+          <img src="https://raw.githubusercontent.com/Blvck4K/Jss-png/main/Focused%20in%20the%20modern%20office.png" alt="Isaac Akpasu" />
           <div className="glow-effect"></div>
         </div>
       </div>

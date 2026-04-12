@@ -59,3 +59,15 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 576px) {
+  .about-text {
+    font-size: 1rem;
+  }
+  .highlight-card {
+    padding: 1.2rem;
+  }
+  .highlight-card h3 {
+    font-size: 1.2rem;
+  }
+}

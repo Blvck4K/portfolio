@@ -85,3 +85,19 @@
     align-items: center;
   }
 }
+
+@media (max-width: 576px) {
+  .footer-title {
+    font-size: 1.6rem;
+  }
+  .contact-link, .contact-item {
+    font-size: 0.9rem;
+  }
+  .interests-section h3 {
+    font-size: 1.2rem;
+  }
+  .interest-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}

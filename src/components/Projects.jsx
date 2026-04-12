@@ -18,10 +18,10 @@ const Projects = () => {
         "Implemented WhatsApp integration for direct customer communication",
         "Designed UI/UX focused on a modern, premium brand experience"
       ],
-      image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?q=80&w=800&auto=format&fit=crop",
+      image: "https://raw.githubusercontent.com/Blvck4K/Jss-png/main/zizzystores.png",
       links: {
-        live: "#",
-        github: "#"
+        live: "https://zizzystores.com",
+        github: "https://github.com/Blvck4K/zizzystore"
       }
     },
     {
@@ -35,10 +35,10 @@ const Projects = () => {
         "Optimized for low-cost AI usage and scalability",
         "Focused on providing educational and developer support tools"
       ],
-      image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=800&auto=format&fit=crop",
+      image: "https://raw.githubusercontent.com/Blvck4K/Jss-png/main/zizzyai.png",
       links: {
-        live: "#",
-        github: "#"
+        live: "https://zizzy-v1.vercel.app/",
+        github: "https://github.com/Blvck4K/zizzy-v1"
       }
     },
     {
@@ -50,10 +50,10 @@ const Projects = () => {
         "Implemented features for tracking business operations",
         "Designed structured database for handling records"
       ],
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop",
+      image: "https://raw.githubusercontent.com/Blvck4K/Jss-png/main/ardsan.png",
       links: {
-        live: "#",
-        github: "#"
+        live: "https://ardsan.org",
+        github: "https://github.com/Blvck4K/Ardsan"
       }
     }
   ];
@@ -61,10 +61,10 @@ const Projects = () => {
   return (
     <section className="section projects" id="projects">
       <h2 className="section-title reveal">Featured Projects</h2>
-      
+
       <div className="projects-container">
         {projects.map((project, index) => (
-          <div className="project-card glass-panel reveal" key={index} style={{transitionDelay: `${index * 0.1}s`}}>
+          <div className="project-card glass-panel reveal" key={index} style={{ transitionDelay: `${index * 0.1}s` }}>
             <div className="project-image-wrapper">
               <img src={project.image} alt={project.title} className="project-image" />
               <div className="project-overlay">
@@ -76,21 +76,21 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="project-content">
               <div className="project-header">
                 <h3>{project.title}</h3>
                 <span className="project-role">{project.role}</span>
               </div>
-              
+
               <div className="project-tech">
                 {project.tech.map((t, i) => (
                   <span key={i} className="tech-badge">
-                    <Code size={12} style={{marginRight: '4px'}} /> {t}
+                    <Code size={12} style={{ marginRight: '4px' }} /> {t}
                   </span>
                 ))}
               </div>
-              
+
               <ul className="project-description">
                 {project.description.map((desc, i) => (
                   <li key={i}>{desc}</li>
