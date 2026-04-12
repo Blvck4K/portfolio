@@ -1,0 +1,131 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.timeline-title {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--accent-blue);
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 2px;
+  height: 100%;
+  background: var(--border-light);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2rem;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent-blue);
+  border: 3px solid var(--bg-dark);
+  box-shadow: 0 0 10px var(--accent-blue);
+}
+
+.timeline-content {
+  padding: 1.5rem;
+}
+
+.timeline-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-header h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+  color: #fff;
+}
+
+.company {
+  font-size: 1.1rem;
+  color: var(--accent-blue);
+  font-weight: 500;
+}
+
+.timeline-period {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  margin-bottom: 1.2rem;
+}
+
+.timeline-content ul {
+  list-style: none;
+}
+
+.timeline-content li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.6rem;
+  color: #cccccc;
+  font-size: 0.95rem;
+}
+
+.timeline-content li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent-blue);
+}
+
+.education-card {
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.education-card h4 {
+  font-size: 1.5rem;
+  color: var(--accent-blue);
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  display: block;
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.status {
+  display: inline-block;
+  background: rgba(0, 240, 255, 0.1);
+  color: var(--accent-blue);
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
