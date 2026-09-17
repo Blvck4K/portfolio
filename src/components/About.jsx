@@ -14,7 +14,7 @@ const About = () => {
           </p>
           <br/>
           <p>
-            Founder of <strong>Zizzystores</strong>, a platform helping brands launch fully functional online stores with custom domains, and <strong>Zizzy AI</strong>, an intelligent assistant designed for both general users and developers.
+            Founder of <strong>Unbley</strong>, a platform helping brands launch fully functional online stores with custom domains, and <strong>Zizzy AI</strong>, an intelligent assistant designed for both general users and developers.
           </p>
           <br/>
           <p>
