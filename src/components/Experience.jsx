@@ -6,7 +6,7 @@ const Experience = () => {
   const experiences = [
     {
       role: "Founder & Full Stack Developer",
-      company: "Zizzystores",
+      company: "Unbley",
       period: "2026 – Present",
       description: [
         "Built and launched an e-commerce platform targeting Nigerian brands",
