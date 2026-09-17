@@ -1,10 +1,10 @@
 
 :root {
-  --bg-dark: #0a0a0c;
-  --bg-panel: rgba(25, 25, 30, 0.6);
-  --bg-panel-hover: rgba(35, 35, 45, 0.8);
-  --accent-blue: #00f0ff;
-  --accent-blue-deep: #0066ff;
+  --bg-dark: #3E2415;
+  --bg-panel: rgba(245, 235, 221, 1);
+  --bg-panel-hover: rgba(36, 23, 15, 1);
+  --accent-blue: #6B4226;
+  --accent-blue-deep: #3E2415;
   --text-main: #f5f5f5;
   --text-muted: #a0a0a5;
   --border-light: rgba(255, 255, 255, 0.1);
