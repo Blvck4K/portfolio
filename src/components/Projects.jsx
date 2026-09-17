@@ -6,7 +6,7 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: "Zizzystores",
+      title: "Unbley",
       role: "Founder & Developer",
       tech: ["React", "Supabase", "Paystack", "Vercel"],
       description: [
@@ -18,10 +18,10 @@ const Projects = () => {
         "Implemented WhatsApp integration for direct customer communication",
         "Designed UI/UX focused on a modern, premium brand experience"
       ],
-      image: "https://raw.githubusercontent.com/Blvck4K/Jss-png/main/zizzystores.png",
+      image: "https://raw.githubusercontent.com/Blvck4K/Jss-png/main/logogo.png",
       links: {
-        live: "https://zizzystores.com",
-        github: "https://github.com/Blvck4K/zizzystore"
+        live: "https://unbley.vercel.app",
+        github: "https://github.com/Blvck4K/unbley"
       }
     },
     {
